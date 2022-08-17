@@ -1,0 +1,363 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: system-ui;
+    background: white;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  
+  /* NAV */
+  
+  .div {
+    background: black;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: -10px;
+  
+  }
+  
+  #logo {
+  margin-right: 350px
+  }
+  
+  h3:hover {
+    font-size: 32px;
+    cursor: default;
+  }
+  
+  .color-blue:hover {
+    color: #007cdb;
+    margin: 0 auto;
+  }
+  
+  .color-red:hover {
+    color: red;
+    margin: 0 auto;
+  }
+
+  .dhdgsgh:hover {
+    color: red;
+    margin: 0 auto;
+  }
+  
+  .color-orange:hover {
+    color:orange;
+    margin: 0 auto;
+  }
+  
+  .color-skyblue:hover {
+    color:skyblue;
+    margin: 0 auto;
+  }
+  
+  /* About me */
+  
+  .aboutme img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin-top: 30px;
+        }
+
+        .contact_section img {
+          width: 400px;
+          height: 400px;
+          border-radius: 50%;
+          margin-top: 30px;
+          }
+  
+  
+  /* {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.596);
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      margin-top: 10%;
+      color: white;
+  } */
+  .p {
+    font-size: 35px;
+    margin-right: 60px;
+  /*   font-weight: bold; */
+    padding-left: 80px;
+    text-align: left;
+  
+    
+  }
+  .about-con {
+      display: flex;
+      align-items: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 10px;
+  /*     background-color: rgba(0, 0, 0, 0.596); */
+      text-align: center;
+      width: 78%;
+      margin: auto;
+  /*     margin-top: 5%; */
+    
+  }
+  /* 
+  .about-con {
+      display: flex;
+      align-items: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.596);
+      text-align: center;
+      width: 60%;
+      margin: auto;
+      margin-top: 10%;
+    
+  } */
+  
+  /*     #about { background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+         border-radius:50px;
+         color:white;
+         padding: 5px;
+         font-family: cursive;
+           width:80%;
+       margin-left: 10%;
+       margin-bottom: 10%;
+       
+       font-size:20px
+         }
+  
+        
+  #about p {
+        width:80%;
+       margin-left: 10%;
+       margin-bottom: 10%;
+  /*      margin-top: 5%; 
+       font-size:20px
+        
+        } */
+
+#about { background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+          border-radius:50px;
+          color:white;
+          padding: 20px;
+          font-family: cursive;
+            width:80%;
+        margin-left: 10%;
+        /* margin-bottom: 10%; */
+        margin-top: 10%;
+        font-size:25px
+
+}
+
+  .section {
+  display: flex;
+      align-items: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 10px;
+  /*     background-color: rgba(0, 0, 0, 0.596); */
+      text-align: center;
+      width: 70%;
+      margin: auto;
+    
+  }
+  
+   .aboutme .btn {
+    margin-top: 1rem;
+    position: absolute;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+  }
+   .aboutme .btn span {
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+  }
+  .aboutme .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+    transition: 0.3s;
+  } 
+  
+  .aboutme .btn:hover {
+    background: #1a047e;
+  }
+  .aboutme .btn:hover i {
+    transform: translateX(5px);
+  }
+  
+  .aboutme {
+    background: skyblue;
+    background-size: auto;
+    padding-top: 170px;
+    padding-bottom: 300px;
+    
+  }
+  
+.btn img {
+height: 30px;
+width: 20px;
+margin-top: -2px;
+}
+
+
+
+
+  
+/* skill section */
+
+#skill_section {
+    background-color: #3493b3;
+}
+
+.img__wrap {
+    position: relative;
+    /* height: 200px;
+    width: 20px; */
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    margin-left: 175px;
+    margin-top: 50px;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* 
+#skills {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.skill_header {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill_logo {
+    width: 90px;
+    margin: 10px;
+}
+
+.img__img {
+    height: 110px;
+    width: 110px;
+}
+
+.skill{
+    padding: 20px;
+}
+
+
+
+/* contect and info */
+
+.contact_section{
+    background-color: #081C50;
+    color: white;
+}
+.contact-con {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 35px;
+/*     background-color: rgba(0, 0, 0, 0.596); */
+    text-align: center;
+    width: 90%;
+    margin: auto;
+/*     margin-top: 5%; */
+  
+}
+
+.Portfolio {
+    padding: 10px;
+}
+
+.Contacts-info {
+    text-align: left;
+}
+
+.Contacts-info img{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 25px; 
+    margin-right: 5px;
+}
+
+.my-socials {
+    text-align: center;
+
+}
+
+
+
+.socials {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+
+  
+}
+
+.socials {
+    margin-top: -55px;
+
+}
+
+.socials img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
